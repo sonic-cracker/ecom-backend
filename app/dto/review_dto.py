@@ -2,19 +2,20 @@ from pydantic import BaseModel
 from typing import Optional
 
 
-class ReviewCreate(BaseModel):
+class ReviewDTO(BaseModel):
     user_id: int
     product_id: int
     rating: int
     comment: str
 
+    class Config:
+        orm_mode = True
+
 class ReviewOut(BaseModel):
-    id: int
-    user_id: int
-    product_id: int
+    username: str
     rating: int
     comment: str
-    username: Optional[str]
+    created_at: str
 
     class Config:
         orm_mode = True

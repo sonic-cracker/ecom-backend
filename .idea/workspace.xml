@@ -5,35 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bb530b7-d76f-49ef-aeb4-4dd099f4a989" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/FastAPI_ecommerce.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controller/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controller/cartController.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controller/orderController.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controller/productController.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controller/reviewController.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controller/userController.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dto/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dto/cart_dto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dto/order_dto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dto/product_dto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dto/review_dto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/dto/user_dto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/cart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/confirmOrder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/review.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reviewUpdate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alter.py" beforeDir="false" afterPath="$PROJECT_DIR$/alter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controller/orderController.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/orderController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controller/reviewController.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/reviewController.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dto/order_dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dto/order_dto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/dto/review_dto.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dto/review_dto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/review.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/review.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecom.db" beforeDir="false" afterPath="$PROJECT_DIR$/ecom.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +55,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;database.data.extractors.current.export.id&quot;: &quot;SQL Inserts&quot;,
     &quot;database.data.extractors.current.id&quot;: &quot;SQL Inserts&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/apson/PycharmProjects/FastAPIProject/app&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
